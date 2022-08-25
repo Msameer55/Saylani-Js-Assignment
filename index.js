@@ -163,26 +163,15 @@
 // Q: 7. Write a JavaScript function that accepts a string as a parameter and counts the number of vowels within the string.
 
 
+// var string = prompt("Enter any name to check whether it include vowels");
 
+// function toCheck(string) {
+//     const reg = /[aeiou]/gi;
+//     var test = string.match(reg);
+//     console.log(test);
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+// }
+// toCheck(string);
 
 
 
@@ -221,10 +210,12 @@
 // Q: 9. Write a JavaScript function which accepts an argument and returns the type.
 
 
+function check(){
+    var user = prompt("Enter something ");
+    console.log(typeof(user));
+}
 
-
-
-
+check();
 
 
 
